@@ -13,7 +13,7 @@
     
 </script>
 <svelte:window bind:innerWidth bind:outerWidth bind:innerHeight bind:outerHeight />
-    <div class="sticky top-0 h-20 md:h-32  flex flex-row bg-slate-900 text-white sticky top-0 font-bold text-lg md:text-4xl p-2 items-center">
+    <div class="sticky top-0 h-20 md:h-32  flex flex-row bg-slate-900 text-white sticky top-0 font-bold text-lg md:text-4xl p-2 items-center z-[100]">
 
         <a href="/"><div class="mr-auto ml-4 border-4 border-white p-2">Andor Events</div></a>
 
@@ -39,7 +39,7 @@
         {/if}
     </div>
     {#if menuExpanded}
-        <div class="fixed w-full top-30 px-10 bg-slate-700 flex flex-col items-center gap-5 text-white font-bold text-2xl">
+        <div class="fixed w-full top-30 px-10 bg-slate-700 flex flex-col items-center gap-5 text-white font-bold text-2xl z-[100]">
             <a href="https://www.youtube.com/"><div id="weddingsLink" class="py-2">Weddings</div></a>
             <a href="/events"><div id="weddingsLink" class="py-2">Events</div></a>
             <a href="/gallery"><div id="weddingsLink" class="py-2">Gallery</div></a>

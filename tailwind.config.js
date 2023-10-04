@@ -4,12 +4,13 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'lights': "url('header-backdrop.jpg')",
-        'hslide0': "url('hslide0.jpg')",
-        'hslide1': "url('hslide1.jpg')",
-        'hslide2': "url('hslide2.jpg')",
-        'hslide3': "url('hslide3.jpg')",
-        'hslide4': "url('hslide4.jpg')"
+        'lights': "url('general-img/header-backdrop.jpg')",
+        'marble': "url('general-img/marble.jpg')",
+        'hslide0': "url('general-img/hslide0.jpg')",
+        'hslide1': "url('general-img/hslide1.jpg')",
+        'hslide2': "url('general-img/hslide2.jpg')",
+        'hslide3': "url('general-img/hslide3.jpg')",
+        'hslide4': "url('general-img/hslide4.jpg')"
         
       }
     },
