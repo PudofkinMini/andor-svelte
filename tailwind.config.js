@@ -10,7 +10,8 @@ export default {
         'hslide1': "url('general-img/hslide1.jpg')",
         'hslide2': "url('general-img/hslide2.jpg')",
         'hslide3': "url('general-img/hslide3.jpg')",
-        'hslide4': "url('general-img/hslide4.jpg')"
+        'hslide4': "url('general-img/hslide4.jpg')",
+        'radial-gradient': 'radial-gradient(169.40% 89.55% at 94.76% 6.29%, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%)',d
         
       }
     },

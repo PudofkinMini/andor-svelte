@@ -39,7 +39,7 @@
         {/if}
     </div>
     {#if menuExpanded}
-        <div class="fixed w-full top-30 px-10 bg-slate-700 flex flex-col items-center gap-5 text-white font-bold text-2xl z-[100]">
+        <div class="fixed w-full top-30 px-10 bg-slate-700 flex flex-col items-center gap-5 text-white font-bold text-2xl z-[100] divide-y divide-slate-900">
             <a href="https://www.youtube.com/"><div id="weddingsLink" class="py-2">Weddings</div></a>
             <a href="/events"><div id="weddingsLink" class="py-2">Events</div></a>
             <a href="/gallery"><div id="weddingsLink" class="py-2">Gallery</div></a>
