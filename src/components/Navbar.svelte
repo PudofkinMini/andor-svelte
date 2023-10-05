@@ -13,7 +13,7 @@
     
 </script>
 <svelte:window bind:innerWidth bind:outerWidth bind:innerHeight bind:outerHeight />
-    <div class="sticky top-0 h-20 md:h-32  flex flex-row bg-slate-900 text-white sticky top-0 font-bold text-lg md:text-4xl p-2 items-center z-[100]">
+    <div class="sticky top-0 h-20 md:h-30  flex flex-row bg-slate-900 text-white sticky top-0 font-bold text-lg md:text-4xl p-2 items-center z-[100]">
 
         <a href="/"><div class="mr-auto ml-4 border-4 border-white p-2">Andor Events</div></a>
 
